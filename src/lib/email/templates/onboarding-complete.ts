@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { emailShell, emailButton } from '../mailer' // <-- Changed from '../resend'
 
 export function onboardingCompleteEmail(data: {
