@@ -1,13 +1,15 @@
 'use client'
 
+import { Suspense } from "react";
 import { useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { Eye, EyeOff, Loader2 } from 'lucide-react'
 import Link from 'next/link'
-import Image from 'next/image' // Added for logo handling
+import Image from 'next/image'
 
-export default function LoginPage() {
+// 1. We renamed your main code to LoginContent
+function LoginContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const redirectTo = searchParams.get('redirectTo') ?? '/dashboard'
@@ -148,5 +150,20 @@ export default function LoginPage() {
 
       </div>
     </div>
+  )
+}
+
+// 2. This is the new default export that Next.js sees, properly wrapped in Suspense
+export default function LoginPage() {
+  return (
+    <Suspense 
+      fallback={
+        <div className="min-h-screen bg-[#09090b] flex items-center justify-center">
+          <Loader2 className="animate-spin text-zinc-500" size={32} />
+        </div>
+      }
+    >
+      <LoginContent />
+    </Suspense>
   )
 }
