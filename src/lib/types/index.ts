@@ -1,5 +1,5 @@
 // ============================================================
-// ALL TYPESCRIPT TYPES FOR INVESTOR SAATHI CRM
+// ALL TYPESCRIPT TYPES FOR INVESTOR SATHI CRM
 // ============================================================
 
 export type UserRole = 'sales_rep' | 'team_lead' | 'admin'

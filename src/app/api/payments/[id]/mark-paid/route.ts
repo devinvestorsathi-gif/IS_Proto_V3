@@ -50,11 +50,11 @@ export async function POST(request: NextRequest, { params }: { params: { id: str
     clientName:     client.full_name,
     clientPhone:    client.phone,
     clientEmail:    client.email,
-    projectDetails: client.project_interest ?? 'Investor Saathi Property',
+    projectDetails: client.project_interest ?? 'Investor Sathi Property',
     milestoneName:  milestone.milestone_name,
     amount:         milestone.amount,
     paidAt,
-    salesRepName:   assignedProfile?.full_name ?? 'Investor Saathi',
+    salesRepName:   assignedProfile?.full_name ?? 'Investor Sathi',
   })
 
   // Upload to Storage
@@ -117,7 +117,7 @@ export async function POST(request: NextRequest, { params }: { params: { id: str
     </div>
 
     <p style="color: #52525b; font-size: 12px; line-height: 1.6; text-align: center; margin-top: 30px;">
-      Thank you for choosing <strong>Investor Saathi</strong>. A formal PDF receipt has been attached to this email for your records.
+      Thank you for choosing <strong>Investor Sathi</strong>. A formal PDF receipt has been attached to this email for your records.
     </p>
   `, `Payment Confirmation — ${receiptId}`)
 

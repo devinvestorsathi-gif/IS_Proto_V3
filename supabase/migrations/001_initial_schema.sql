@@ -1,5 +1,5 @@
 -- ============================================================
--- INVESTOR SAATHI CRM — FULL DATABASE SCHEMA
+-- INVESTOR SATHI CRM — FULL DATABASE SCHEMA
 -- Run this in Supabase SQL Editor
 -- ============================================================
 

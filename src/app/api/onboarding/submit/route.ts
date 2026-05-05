@@ -149,7 +149,7 @@ export async function POST(request: NextRequest) {
         to: formFields.email, // Client Email
         cc: assignedProfile.email, // Sales Rep Email
         bcc: process.env.ADMIN_BCC_EMAIL, // Admin BCC
-        subject: `Profile Confirmed - Welcome to Investor Saathi, ${formFields.full_name}!`,
+        subject: `Profile Confirmed - Welcome to Investor Sathi, ${formFields.full_name}!`,
         html: emailHtml,
       })
 

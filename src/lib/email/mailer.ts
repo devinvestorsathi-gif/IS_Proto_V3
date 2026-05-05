@@ -44,7 +44,7 @@ export async function sendEmail(options: SendEmailOptions) {
     }
 
     const info = await transporter.sendMail({
-      from: `"Investor Saathi" <${process.env.GMAIL_USER}>`,
+      from: `"Investor Sathi" <${process.env.GMAIL_USER}>`,
       to: options.to,
       cc: options.cc,
       bcc: options.bcc,
@@ -62,7 +62,7 @@ export async function sendEmail(options: SendEmailOptions) {
 
 export function emailShell(content: string, previewText: string = '') {
   // Use the CID reference instead of a URL or Base64 string
-  const brandingHeader = `<img src="cid:investor-sathi-logo" alt="Investor Saathi" style="width: 140px; height: auto; display: block; margin: 0 auto;" />`
+  const brandingHeader = `<img src="cid:investor-sathi-logo" alt="Investor Sathi" style="width: 140px; height: auto; display: block; margin: 0 auto;" />`
 
   return `
     <!DOCTYPE html>
@@ -88,7 +88,7 @@ export function emailShell(content: string, previewText: string = '') {
         <!-- Footer -->
         <div style="margin-top: 30px; text-align: center;">
           <p style="color: #52525b; font-size: 10px; text-transform: uppercase; letter-spacing: 2px; font-weight: bold;">
-            Investor Saathi — Investment Advisory Portal
+            Investor Sathi — Investment Advisory Portal
           </p>
         </div>
       </div>

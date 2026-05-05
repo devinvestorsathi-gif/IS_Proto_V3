@@ -67,7 +67,7 @@ function LoginContent() {
               priority 
             />
           </div>
-          <h1 className="text-3xl font-bold text-white tracking-tight">Investor Saathi</h1>
+          <h1 className="text-3xl font-bold text-white tracking-tight">Investor Sathi</h1>
           <p className="text-gold text-[11px] mt-2 font-bold tracking-[0.2em] uppercase">Premium Internal CRM</p>
         </div>
 
@@ -143,7 +143,7 @@ function LoginContent() {
         </div>
 
         <p className="text-center text-[10px] text-zinc-600 mt-8 font-bold tracking-[0.2em] uppercase">
-          INVESTOR SAATHI INTERNAL PLATFORM <br className="sm:hidden" />
+          INVESTOR SATHI INTERNAL PLATFORM <br className="sm:hidden" />
           <span className="hidden sm:inline"> — </span> 
           AUTHORISED PERSONNEL ONLY
         </p>

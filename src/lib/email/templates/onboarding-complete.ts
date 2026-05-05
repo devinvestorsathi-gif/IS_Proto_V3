@@ -63,7 +63,7 @@ export function onboardingCompleteEmail(data: {
 
   const content = `
 <h2 style="margin:0 0 16px;font-size:24px;font-weight:300;color:#F5F5F0;">
-  Welcome to <span style="font-weight:600;color:#C9A84C;">Investor Saathi</span>, ${data.clientName.split(' ')[0]}!
+  Welcome to <span style="font-weight:600;color:#C9A84C;">Investor Sathi</span>, ${data.clientName.split(' ')[0]}!
 </h2>
 <p style="margin:0 0 32px;font-size:15px;color:#9A9A8A;line-height:1.6;">
   Your investment profile has been successfully securely registered. We are thrilled to guide you through your real estate journey. Below is a summary of your profile and investment preferences.
@@ -115,5 +115,5 @@ ${quoteBlock}
   Your dedicated advisor, <strong>${data.salesRepName}</strong>, will review your details and be in touch shortly to finalize your next steps.
 </p>
 `
-  return emailShell(content, `Profile Confirmed - Investor Saathi`)
+  return emailShell(content, `Profile Confirmed - Investor Sathi`)
 }

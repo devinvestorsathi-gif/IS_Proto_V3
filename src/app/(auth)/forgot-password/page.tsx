@@ -50,7 +50,7 @@ export default function ForgotPasswordPage() {
               priority 
             />
           </div>
-          <h2 className="text-white text-xl font-bold tracking-tight">Investor Saathi</h2>
+          <h2 className="text-white text-xl font-bold tracking-tight">Investor Sathi</h2>
           <p className="text-gold text-[10px] uppercase tracking-[0.2em] mt-2 font-bold">Premium Account Recovery</p>
         </div>
 

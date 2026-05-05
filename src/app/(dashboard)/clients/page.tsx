@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Mail, Phone, MapPin, Users, CheckCircle, ArrowRight } from 'lucide-react'
 
 export const metadata = {
-  title: 'Clients | Investor Saathi CRM',
+  title: 'Clients | Investor Sathi CRM',
 }
 
 interface ClientProfile {

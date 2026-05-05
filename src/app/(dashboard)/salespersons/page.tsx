@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import { Mail, ShieldCheck, User, Target, Activity, Clock } from 'lucide-react'
 
 export const metadata = {
-  title: 'Sales Team | Investor Saathi CRM',
+  title: 'Sales Team | Investor Sathi CRM',
 }
 
 interface PipelineLead {

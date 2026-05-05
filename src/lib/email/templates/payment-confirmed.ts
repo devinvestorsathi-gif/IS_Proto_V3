@@ -51,7 +51,7 @@ export function paymentConfirmedEmail(data: PaymentEmailData): string {
 </div>
 
 <p style="margin:0 0 24px;font-size:14px;color:#9A9A8A;text-align:center;line-height:1.6;">
-  Thank you for your continued trust in Investor Saathi. Your digital receipt is now available in your document vault for your records. A copy has also been sent to your assigned sales representative.
+  Thank you for your continued trust in Investor Sathi. Your digital receipt is now available in your document vault for your records. A copy has also been sent to your assigned sales representative.
 </p>
 
 <div style="text-align: center;">

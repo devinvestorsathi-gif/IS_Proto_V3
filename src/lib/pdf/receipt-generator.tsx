@@ -112,7 +112,7 @@ function ReceiptDocument({ data, logoDataUri }: { data: ReceiptData, logoDataUri
                 <Text style={styles.logoText}>IS</Text>
               </View>
             )}
-            <Text style={styles.brandName}>Investor Saathi</Text>
+            <Text style={styles.brandName}>Investor Sathi</Text>
             <Text style={styles.brandSub}>Investment Advisory</Text>
           </View>
           <View>

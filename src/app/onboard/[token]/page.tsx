@@ -418,7 +418,7 @@ export default function OnboardingForm({ params }: Props) {
                   <Field label="Lead Source (if referred)" value={form.lead_source_confirmed} onChange={(v) => update('lead_source_confirmed', v)} placeholder="e.g. Referred by Ravi Shah" />
                   
                   <div className="md:col-span-2">
-                    <label className="block text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1.5 ml-1">Why did you choose Investor Saathi?</label>
+                    <label className="block text-[10px] font-bold text-zinc-500 uppercase tracking-[0.15em] mb-1.5 ml-1">Why did you choose Investor Sathi?</label>
                     <textarea
                       value={form.why_chose_us}
                       onChange={(e) => update('why_chose_us', e.target.value)}

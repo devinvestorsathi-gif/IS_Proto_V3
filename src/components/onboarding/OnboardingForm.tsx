@@ -97,7 +97,7 @@ export default function OnboardingForm({ token }: Props) {
             <div className="w-9 h-9 bg-gold rounded-lg flex items-center justify-center">
               <span className="text-background font-bold">IS</span>
             </div>
-            <span className="text-lg font-semibold text-text-primary">Investor Saathi</span>
+            <span className="text-lg font-semibold text-text-primary">Investor Sathi</span>
           </div>
           <h1 className="text-2xl font-bold text-text-primary">Client Onboarding</h1>
           <p className="text-text-secondary text-sm mt-1">Complete in 2 minutes</p>
@@ -235,7 +235,7 @@ export default function OnboardingForm({ token }: Props) {
               </div>
               <Field label="Lead Source (confirmed)" value={form.lead_source_confirmed} onChange={(v) => update('lead_source_confirmed', v)} placeholder="e.g. Referred by Ravi Shah" />
               <div>
-                <label className="is-label">Why did you choose Investor Saathi?</label>
+                <label className="is-label">Why did you choose Investor Sathi?</label>
                 <textarea
                   value={form.why_chose_us}
                   onChange={(e) => update('why_chose_us', e.target.value)}

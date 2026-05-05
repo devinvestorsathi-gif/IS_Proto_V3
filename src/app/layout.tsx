@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Investor Saathi CRM',
-  description: 'Internal CRM for Investor Saathi',
+  title: 'Investor athi CRM',
+  description: 'Internal CRM for Investor Sathi',
   icons: {
     // Explicitly using your custom named file for the browser tab
     icon: '/favicon.ico.png',
